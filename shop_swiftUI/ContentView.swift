@@ -1,19 +1,12 @@
-//
-//  ContentView.swift
-//  shop_swiftUI
-//
-//  Created by mahdi naghikhani on 18/09/2023.
-//
-
 import SwiftUI
 
 struct ContentView: View {
     var body: some View {
         VStack {
             Image(systemName: "globe")
-                .imageScale(.large)
+                .imageScale(.medium)
                 .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("Hello , world!")
         }
         .padding()
     }
